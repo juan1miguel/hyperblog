@@ -9,10 +9,30 @@ body {
 
 #container {
     width: 70%;
-    padding: 1rem;
+    padding: 0;
     text-align: left;
     border: 1px solid #dddddd;
     margin: 0 auto;
+}
+
+#cabecera {
+    background: #3333aa;
+    -webkit-box-shadow: inset 4px 4px 15px 0px #000000, -3px -39px 11px -23px rgba(0, 0, 0, 0);
+    box-shadow: inset 4px 4px 15px 0px #000000, -3px -39px 11px -23px rgba(0, 0, 0, 0);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+#cabecera #tagline {
+    margin: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#post {
+    padding: 1em;
 }
 
 #container h1 {
